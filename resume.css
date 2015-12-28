@@ -55,6 +55,8 @@ a#pdf:hover { background: #222; }
 .job h4 { position: absolute; top: 0.35em; right: 0 }
 .job p { margin: 0.75em 0 1em 0; }
 
+.job ul li { border-bottom: none; line-height: 18px; list-style-type: circle; list-style-position: inside; margin-bottom: .75em}
+
 .last { border: none; }
 .skills-list {  }
 .skills-list ul { margin: 0; }
