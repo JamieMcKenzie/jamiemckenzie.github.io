@@ -1,0 +1,27 @@
+@font-face{
+	font-family: 'VegurNormal';
+	src: url('../assets/fonts/vegur_regular_macroman/Vegur-Regular-webfont.eot');
+	src: url('../assets/fonts/vegur_regular_macroman/Vegur-Regular-webfont.eot?iefix') format('eot'),
+	     url('../assets/fonts/vegur_regular_macroman/Vegur-Regular-webfont.woff') format('woff'),
+	     url('../assets/fonts/vegur_regular_macroman/Vegur-Regular-webfont.ttf') format('truetype'),
+	     url('../assets/fonts/vegur_regular_macroman/Vegur-Regular-webfont.svg#webfont') format('svg');
+}
+
+
+@font-face{
+	font-family: 'VegurLight';
+	src: url('../assets/fonts/vegur_extralight_macroman/Vegur-Light-webfont.eot');
+	src: url('../assets/fonts/vegur_extralight_macroman/Vegur-Light-webfont.eot?iefix') format('eot'),
+	     url('../assets/fonts/vegur_extralight_macroman/Vegur-Light-webfont.woff') format('woff'),
+	     url('../assets/fonts/vegur_extralight_macroman/Vegur-Light-webfont.ttf') format('truetype'),
+	     url('../assets/fonts/vegur_extralight_macroman/Vegur-Light-webfont.svg#webfont') format('svg');
+}
+
+@font-face{
+	font-family: 'VegurBold';
+	src: url('../assets/fonts/vegur_bold_macroman/Vegur-Bold-webfont.eot');
+	src: url('../assets/fonts/vegur_bold_macroman/Vegur-Bold-webfont.eot?iefix') format('eot'),
+	     url('../assets/fonts/vegur_bold_macroman/Vegur-Bold-webfont.woff') format('woff'),
+	     url('../assets/fonts/vegur_bold_macroman/Vegur-Bold-webfont.ttf') format('truetype'),
+	     url('../assets/fonts/vegur_bold_macroman/Vegur-Bold-webfont.svg#webfont') format('svg');
+}
