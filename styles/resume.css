@@ -60,19 +60,29 @@ p.enlarge { font-size: 140%; padding-right: 6.5em; line-height: 24px; }
 p.enlarge span { color: #000 }
 .contact-info { margin-bottom: 15px;  }
 .first h2 { padding-left: 20px;}
-.last { border-bottom: 0; padding-bottom: 0; margin-bottom: 1em; }
-
 
 /* //-- section styles -- */
-a#pdf { display: block; float: left; background: #666; color: white; padding: 6px 50px 6px 12px; margin-bottom: 6px; text-decoration: none;  }
+a#pdf {
+	display: block;
+    float: left;
+    background: #666;
+    color: white;
+    padding: 15px 20px;
+    margin: 6px;
+    text-decoration: none;
+    margin-left: 20px;
+    width: 192px;
+    text-align: center;
+}
+
 a#pdf:hover { background: #222; }
 
 .job { position: relative; margin: 1em 0; padding-bottom: .25em; border-bottom: 1px solid #ccc; }
 .job p { margin: 0.75em 0 0em 0; }
-
+.job h3 { color: #990003; }
 .job ul li { border-bottom: none; line-height: 15px; list-style-type: circle; margin-bottom: .5em}
 
-.last { border: none; }
+.last { border: none; margin-bottom: 0; padding-bottom: 0;}
 .skills-list {  }
 .skills-list ul { margin: 0; }
 .skills-list li { margin: 3px 0; padding: 3px 0; }
@@ -96,19 +106,54 @@ a#pdf:hover { background: #222; }
 }
 
 h5 {
-	font-size: 16px;
+	font-size: 18px;
 	font-family: 'VegurLight', Arial, sans-serif;
 	margin-bottom: 18px;
 }
 
 .job h4 {
 	font-family: 'VegurLight', Arial, sans-serif;
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 0px;
 	margin-top: 30px;
 }
 
 .yui-gc .yui-u {
 	margin-left: 0;
-	width: 34%;
+	width: 100%;
+}
+
+.yui-u ul.contact-info {
+	margin-bottom: 0;
+	padding-top:20px;
+	padding-left: 20px;
+}
+
+ul.contact-info {
+	float: right;
+	text-align: right;
+	margin-top: 7em;
+}
+
+ul.contact-info > li {
+	border: none;
+	display: inline-block;
+	padding: 0 15px;
+	text-transform: uppercase;
+}
+
+ul.contact-info > li.last {
+	padding-right: 0;
+}
+
+.job.no-margin {
+	margin-top: 0;
+}
+.yui-gc div.first {
+	float: left;
+	width: 50%;
+}
+.yui-u.block {
+	display: inline-block;
+	width: 50%;
 }
